@@ -1,38 +1,41 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Shared style */
 
-
+.offer-description {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
 
 
 /* banner start header */
 
-header{
-  
+header {
+
     background-image: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 200px;
     width: 100%;
-    max-width:60%;
+    max-width: 60%;
     margin: 0 auto;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     font-family: "Merriweather", serif;
-  
+
 }
 
 .header .sub-title {
-    text-align: center; 
+    text-align: center;
     color: black;
     font-weight: 900;
     font-family: "Merriweather", serif;
-    
-   
+
+
 }
 
-.header .title{ 
+.header .title {
     text-align: center;
     color: black;
     font-weight: bolder;
@@ -46,33 +49,33 @@ header{
 
 /* off style start */
 
-.off{
+.off {
     text-align: center;
     margin: 0 auto;
     margin-top: 60px;
     font-family: "Merriweather", serif;
 }
 
-.off .title{
+.off .title {
     color: #FF0000;
     font-size: 70px;
 }
 
-.off .description{
+.off .description {
     color: #FF0000;
     font-size: 22px;
 }
 
-.off .sub-title{
+.off .sub-title {
     color: #070211;
     font-size: 40px;
 }
 
 /* welcome style start here */
 
-.welcome{
+.welcome {
     width: 100%;
-    max-width:60%;
+    max-width: 60%;
     background-image: url(../images/Vectorrr.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -89,19 +92,19 @@ header{
     font-family: "Merriweather", serif;
 }
 
-.welcome .title{
+.welcome .title {
     color: #FFFFFF;
     font-size: 60px;
     font-weight: bolder;
 }
 
-.welcome .description{
+.welcome .description {
     color: #FFFFFFCC;
     font-weight: bolder;
     font-size: 16px;
 }
 
-.welcome .sub-description{
+.welcome .sub-description {
     color: #FFFFFF;
     font-weight: bolder;
 }
@@ -109,7 +112,7 @@ header{
 
 /* event style start */
 
-.event{
+.event {
     font-size: 25px;
     font-family: "Merriweather", serif;
     font-weight: 500;
@@ -122,12 +125,12 @@ header{
 
 }
 
-.event span{
+.event span {
     color: rgba(255, 0, 0, 1);
     font-weight: bold;
 }
 
-.btn{
+.btn {
     background-color: rgba(255, 0, 0, 1);
     color: #FFFFFF;
     border: none;
@@ -137,4 +140,57 @@ header{
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* offer style start here */
+
+.offer-container {
+    width: 100%;
+    max-width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: "Merriweather", serif;
+
+}
+
+.offer-first .sub-title {
+    color: rgba(255, 0, 0, 1);
+
+}
+
+.offer-first .title {
+    font-weight: bolder;
+}
+
+.offer-second {
+    border: 10px solid rgba(255, 0, 0, 1);
+    border-radius: 50%;
+    /* it's apply to make solid border Circle, how much need to be circle depending on the image width usually 50% from total width*/
+    padding: 20px;
+}
+
+.offer-second .second-img {
+    width: 200px;
+    height: auto;
+}
+
+.offer-third {
+    margin-left: 30px;
+
+}
+
+.offer-third h3 {
+    color: #FF0000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.offer-third img{
+    width: 100px;
+    height: auto;
 }
