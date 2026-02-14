@@ -190,7 +190,74 @@ header {
     font-weight: bold;
 }
 
-.offer-third img{
+.offer-third img {
     width: 100px;
     height: auto;
+}
+
+/* sale style start here */
+
+.sale-container {
+    font-family: "Merriweather", serif;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sale-subtitle {
+    color: rgba(7, 2, 17, 1);
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.sale-title {
+    font-size: 72px;
+    margin: 0;
+    margin-bottom: 28px;
+    font-weight: 900;
+}
+
+.spn {
+    color: rgba(255, 0, 0, 1);
+}
+
+.sale-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 14px;
+    margin-bottom: 300px;
+}
+
+.sale-offer-container {
+    position: relative;
+    /* relative means by keeping this image fixed  */
+}
+
+.sale-offer-content {
+    width: 100%;
+
+}
+
+.sale-offer-img{
+    position: absolute;
+    /* absolute means move this image */
+    left: 10px;
+    top: -200px; 
+    display: flex;
+    gap: 15px;
+}
+
+.sale-img-one{
+    width: 50%;
+    position: relative;
+    /* relative means by keeping this image fixed  */
+}
+
+.sale-img-two{
+    width: 40%;
+    position: absolute;
+      /* absolute means move this image */
+    right: 20px;
+    top: -65px;
 }
