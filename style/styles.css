@@ -264,45 +264,101 @@ header {
 
 /* gifts section start here */
 
-.best-gifts-container{
+.best-gifts-container {
     width: 100%;
     max-width: 60%;
     margin: 0 auto;
     font-family: "Merriweather", serif;
     margin-bottom: 60px;
-    
-    
+
+
 
 }
 
-.best-gifts-subtitle{
+.best-gifts-subtitle {
     color: rgba(255, 0, 0, 1);
     font-size: 16px;
     font-weight: 500;
 
 }
 
-.best-gifts-title{
+.best-gifts-title {
     color: rgba(7, 2, 17, 1);
     font-size: 30px;
     font-weight: 900;
 }
 
-.best-gifts-description{
+.best-gifts-description {
     color: rgba(7, 2, 17, 0.6);
     font-size: 14px;
     margin-bottom: 48px;
 }
 
-.gifts-img-container{
+.gifts-img-container {
     display: grid;
     /* CSS Grid is used for two-dimensional layout, with rows AND columns. */
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     /* repeat(কতবার, কী repeat করবে) */
     gap: 24px;
- 
+
 }
 
-.gifts-img-container img{
+.gifts-img-container img {
     width: 100%;
+}
+
+/* news style start here */
+
+.news-container {
+    width: 100%;
+    max-width: 60%;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+
+}
+
+.news-img {
+    width: 100%;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.news-title {
+    color: rgba(7, 2, 17, 1);
+    font-family: "Merriweather", serif;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px;
+
+}
+
+.news-description {
+    color: rgba(7, 2, 17, 0.6);
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 80%;
+
+}
+
+.news-subs {
+    margin-top: 48px;
+}
+
+.news-subs .email {
+    border-radius: 10px;
+    padding: 20px 100px 20px 30px;
+}
+
+.news-subs .bn{
+    background-color: rgba(255, 0, 0, 1);
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px 100px 20px 30px;
+    cursor: pointer;
+
 }
