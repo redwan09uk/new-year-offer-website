@@ -311,7 +311,7 @@ header {
 
 .news-container {
     width: 100%;
-    max-width: 60%;
+    max-width: 50%;
     background-color: rgba(255, 0, 0, 0.05);
     margin: 0 auto;
     text-align: center;
