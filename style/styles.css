@@ -315,7 +315,7 @@ header {
     background-color: rgba(255, 0, 0, 0.05);
     margin: 0 auto;
     text-align: center;
-    padding: 80px;
+    padding: 60px 100px 60px 100px;
     margin-bottom: 60px;
     border-radius: 5px;
 
@@ -338,10 +338,9 @@ header {
 
 .news-description {
     color: rgba(7, 2, 17, 0.6);
-    margin: 0 auto;
     font-weight: 400;
     font-size: 14px;
-    max-width: 80%;
+
 
 }
 
@@ -350,15 +349,60 @@ header {
 }
 
 .news-subs .email {
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 20px 100px 20px 30px;
+
 }
 
-.news-subs .bn{
+.news-subs .bn {
     background-color: rgba(255, 0, 0, 1);
     color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 20px 100px 20px 30px;
     cursor: pointer;
+
+}
+
+/* footer style start here */
+
+.footer-container {
+    background-color: rgba(7, 2, 17, 1);
+    max-width: 100%;
+    padding: 50px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: "Merriweather", serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-description {
+    font-size: 14px;
+    word-spacing: 3px;
+    line-height: 1.6;
+    /* 1 = same as font size
+    1.5 = 1.5 times font size
+    1.6 = 1.6 times font size
+    2 = double the font size */
+}
+
+.img-icon {
+    margin-right: 10px;
+}
+
+.footer-icon{
+    text-align: center;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+    font-size: 14px;
+    font-family: "Merriweather", serif;
 
 }
